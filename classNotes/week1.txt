@@ -1,0 +1,42 @@
+big data analysis
+
+chatGPT - moved to Azure cloud / bandwith / best is 100Gbps --> 10 Gbps document(load balancer) -->  other instances 
+GPT4 - gpu /4  billions of parameters - every parameter is float 64 or 8 bytes / every instance needs a large gpu / programs software these run on 3rd party 
+containers = allows to run on every machine that 
+azure able to run if able to contianer-ize the project 
+containers will use Docker 
+
+What do you need to make a search web site 
+    search algorithm 
+    web crawler - to index the websites  
+        data lake - store data links 
+        indexer 
+        able to search archive website 
+        features / rep.  -databases website # features / term of frequency / 100k if works - 100 times of the word "dog" appears 
+        serach = keyword : dog, do through all the features with the most mentions of dog , give back website # 
+    SEO optimaitazion 
+
+    trending topics and news = will look at the all the features to make this list up 
+erugent : most important is engagment 
+youtube example 
+    monitized longer videos (12k)
+    4k resolution / HD for video quality 
+        4096 (hor) / 2160 (ver)
+        2160 X 4096 X 3 rgb X 15(30/ 60)frames  X 60 sec x5 diff resolution x 3 replicates of this video 
+        10,000 users for this one video 
+        data lake t0 put in the cloud 
+        make it avaliabe in multiple resolution : 
+
+how to store this large data / scale the data / how to serve the analysis 
+how use data lake / districution of data / how to user
+hadoop - hdfs (based on GFS google distributed file system ) / S3 amazon distributed file system / Azurebolb / Ali-Ba-ba / 
+spark / fling / casandra / hadoop 
+
+- Project : Food : how to make menu / pick meals to make for people / usda.gov
+Teams: 
+
+Data ingestion : find the data / sources / put in the pipeline / how to get the data / notification system 
+Database managment : where to store the data / highly tranaction / achape / build table / queries / on what the other teams wnat to analysis  / spark 
+Machine Learning : build models 
+Real-time processing time : dashboard / analysis visualization team / and trends / what ingredients for the season - kafla 
+Dev Team : full-stack develep : app / javascript / frontend / python 
