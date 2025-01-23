@@ -1,0 +1,89 @@
+look at the data for the project: https://fdc.nal.usda.gov/download-datasets
+Module 1
+slide 5: processing, analyzing and handleing large amoutns of data and high volume and velocity 
+slide 6: log data, lot of information with lots of different formats, allows for more insights
+slide 7: 
+    social media- any project that relate to users and their behavior, 
+
+    machine data - large data from ex: GPS devices, user interactions / nothing to do user behaior, where is the user located, where they are scrolling, where are are swiping located without asking the user , car monitors and motion sensory detections - from third party , 
+
+    iot (internet of things)devices to sources of big data / like : smart devices, so anything that is connected to the internet / security camers like ring / smart fridge or smart kitchen devices / moition dectors/ alarm systems / 
+    ex: timestamps for the screen data 
+
+    important to understand and able to analysis this data 
+
+slide 8: zettabyte 
+estimate of data user data / snapshot of data used 
+new social media platforms/ chatbots / a lot of AI generated data : image, text, voice, etc
+ 
+ slide 9: 
+ slide 10: 
+ slide 12: 
+    database - tablular / can query 
+    datawarehouse - stores sturctued, cleaned, and processed data / similar to database 
+        both have tables 
+        both have rows and columns and can related to other tables 
+        fold the table based on time (month)?
+        data cubed : is a cubed of data based on argreeation  
+    data lake - stores raw unstructured data in its native 
+
+    can query all data : might need speical tools 
+Slide 13: Big Data Analytics 
+slide 14
+slide 15: customer data is as valuable as the customer 
+    having data allows improvment 
+slide 16: example banking 
+slide 17: example big data from manufacturing and industry 
+slide 18: example of big data to respond to the market and area and traffic 
+slide 19: example use analysis to improve customer experience / a lot of ideas to 
+slide 20: what big data cannot do 
+    still need the experts: domain experts 
+    need a business model how to run the company: ads, subscription based, price each item , freebie with ads 
+    need to account for data shifts and data will change over time 
+slide 23: 
+    waterfall method :
+    spiral method 
+    agile 
+    pipeline method
+        1: evaluate the what we want to find 
+        2: where will the data come from
+        3: data filtering 
+        4: data etraction to the way we want to work with example: tiktok short we want the statitics but not the video itself 
+        5: ...
+slide 24: 
+    description: what has happened/ what has happend in the past, example: enrollment patterns, etc
+    predictive analysis: regression / classification to predict unseen data 
+    diagnostic analytics: (not well-knonw) what happened and why did it happend / complicated and not straight forward to what happend /example: why did the customer did not buy a specific product 
+    prescriptive analysis: (not well-knonw) how to handel a spefiic solution / solve a problem 
+
+slide 28: tools for big data 
+slide 31: pie chart / a lot of retails / telecom are vendors and not users - pass through the data 
+    industry using big data but not producing data 
+    out-box thinking and support of idea to make a big data analysis / people want to results 
+slide 32: e-commerce
+slide 33: retail : walmart 
+slide 34: application of retail / marketering 
+slide 35: education
+slide 36: healthcare /sports 
+slide 37: media / enterainment 
+    allows to make recommendations to help with retaining and gaining customers 
+slide 38: goverment: city - taxpayers / traffic / energy usage / zoning of homes, business, reatil 
+
+project: might have 50 contianers
+
+---- 
+hadoop 
+MongoGD - 3GDB / 5gdgs / food with the megabytes 
+JSON / historical data : 
+
+SQL - postgres : host on the computer science 
+micro-surfaces 
+hive / postgress - meta data 
+casandra - data 
+mongoDB - data 
+impletement the tools the data in different aspects 
+queries and machine learning needs 
+
+real time data / data
+Summary: will be using ML channel: want they are looking for 
+ NExt week: data you want to collect from the food Database : dont put in the database 
