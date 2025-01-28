@@ -1,0 +1,100 @@
+Module 2 : Hadoop Ecosystem  
+Hadoop Ecosystem 
+01 introducing hadoop 
+slide 12:  Apache Hadoop 
+    backup centers all around the world 
+slide 6: service model : 
+    client - server is one the olders architecture 
+    central view of the system 
+slide 7 
+    with globalization - started getting a lot of request 
+    have scaliablity issue / vericall scaling is : adding more ram , cpu , etc  BUT there is a limit to this approach as well 
+    -limitation to verical scaling 
+    -buff up a server 
+slide 9: supersize server 
+     - need specialized hardware which is exteremly expensive 
+     - super computers 
+     - storage is cheap 
+slide 10: alternative 
+    2000 - 2006 how things were done with people owns hardware 
+    after 2006 : commodity clusters to build huge storage units 
+    similar to AI rise 
+slide 11 : Hadoop 
+    fault toralate ? / backup / 
+    procesing engine (mapreduce) 
+slide 12: time line 
+    - storing web crawlering  
+    2002 - expensize 
+    2003 - GFS (google file system )
+    2004 - mapreduce  - work on the hardware unstead of storing in the RAM 
+slide 13: where does hadoop stand today ? 
+     a lot of cloud providers today 
+slide 14: 
+    Facebook used hadoop 
+    hadoop - open-source 
+    a lot of connectors / a lot of tools with hadoop 
+slide 18 
+    need these tools 
+    hadoop : HDFS & MapReduced
+    YARN MapReduced v2 
+    HBase - region servers - stores with HDFS system 
+        complex / immutatable - can't read all of the files 
+    Hbase and casandra = database 
+    Hive (facebook) used to query - offer to make data scientist to read data / make a query / assume a skcema ? / a lot of user error / only know what is there to query / but won't know all the data that is avaliable / HIVE is 80-70% SQL 
+    Mahout : Machine learning - but now use SPark 
+    Sqoop - to connect to relation database 
+Docker :  ??
+    system 1: have all the programs we need : Hadoop, Hbase , etc 
+    system 2: make a copy (an image)
+        - issue : hardware is different from system 1 so it won't work the same 
+    Solutions: containerization / VM-ware / Docker-engine : build image here, allows the system to work in all the douplicates / to pack all the libraries / containers / work on any hardware / containerization of systems / allows for scaliablity / not sure how many request you will get 
+white board 
+    image in the container with a bandwith of 10 gbps  = bottle neck - in the que  of service 
+    - DoS =  Denial of Service (too many people )
+    load balancer = to make more containers to take on all the request at the same time 
+    load balancer = cost effective way to make a website / applications 
+    containers don't talk to each other 
+    elastitity
+    machine (computers ? ) can run multiple containers
+Goal : make clusters  / 
+Docker is the enginer to run all these containers 
+every container is a virtual machine 
+slide 20 - 21 - 31 
+    yarn - to run mapreduce jobs 
+slide 34 hadoop distribution 
+    1: open source distribution 
+    2: commerical distirbutions
+    3: cloud-based distribution 
+    Hadoop is cheap / don't have to have to have a data engineer / 
+    cloudera - commerical distribution / build your own cloud / will setup the cloud for you 
+    Cloud-based distriubtion : AWS, want a cluster with hadoop / and provision machines for you 
+    Amazon = elaslatic mapreduce 
+slide 35 
+    security issues 
+slide 36 
+    hortonworks - security issues 
+    part of cloudera 
+slide 37 
+slide 38 
+04 HDFS & File system 
+slide 41:  HDFS and other file system in hadoop 
+slide 42 
+     fault toralance ? 
+slide 44 : HDFS in Fully-distributed mode 
+slide 45 : 6 different nodes (containers/ nodes) 
+    data node = keep track of data nodes 
+    name node = hash of the name / where should it be stored ? / keep track of the name nodes  and all the backup nodes 
+    data node = people do 2 (risky)or 6 (very safe) replicas 
+    node managers : check all the nodes, alive (active), might do load balancing / need node mangers - check over stressed nodes (heating up, will change the jobs to a different node)
+    mapreduce jobs - do in the data node to the containers  / bring the compute to the data 
+    this is how the data is stored / about the map system 
+    
+slide 44 
+    replicas the chunks and not the files 
+    journal nodes = handel where the nodes are 
+hadoop : need to write the command : hadoop fs <your command >
+    learn about hadoop commnand 
+slide 47 
+    individual / isolated / hadoop based on Jvms (ja-fa ? )
+slide 49 
+    setting up the clusers 
