@@ -1,0 +1,17 @@
+Feb 11, 2025
+Big Data Analytics 
+Module 3: apache hbase and phoenix 
+01: intro hbase 
+02: hbase architecture 
+03: data operations with hbase
+04: hortonworks environment 
+05: working with apache phoenix
+06: project and applications 
+
+01: intro hbase 
+Looking back 
+    - mapreduced everyone used
+    - not all can be do with mapreduced 
+Working with big data
+    distributed, schemaless 
+mapreduce and big data 
